@@ -1,4 +1,5 @@
-import { createApp } from "vue";
-import App from "./App.vue";
+import { defineCustomElement } from 'vue';
+import App from "./MyApp.ce.vue";
+import "@/assets/main.scss"
 
-createApp(App).mount("#app");
+customElements.define('weather-widget',defineCustomElement(App));

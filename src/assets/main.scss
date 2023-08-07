@@ -1,0 +1,103 @@
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+  
+  .fade-enter-active,
+  .fade-leave-active {
+    transition: opacity 0.5s ease;
+  }
+
+  .fade-enter-from,
+  .fade-leave-to {
+    opacity: 0;
+  }
+
+  .container {
+    max-width: 340px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid blue;
+    border-radius: 1rem;
+    min-height: 300px;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .city-name {
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    i {
+      font-size: 20px;
+    }
+  }
+
+  h1 {
+    margin-top: 10px;
+  }
+
+  .wind-arrow {
+    margin-left: 4px;
+    margin-right: 10px;
+  }
+
+  .input-label-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-wrapper {
+    display: flex;
+    gap: 0 4px
+  }
+
+  #city {
+    height: 1.5rem;
+  }
+
+  .city-badge-wrapper {
+    margin-bottom: 14px;
+  }
+
+  .city-badge {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 10px 4px 10px;
+    height: 22px;
+    background-color: lightblue;
+    margin-bottom: 6px;
+    border-radius: 6px;
+    user-select: none;
+  }
+
+  .burger {
+    cursor: grab;
+  }
+
+  .submit-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    i {
+      font-size: 28px;
+      color: blue;
+      margin-top: 16px;
+    }
+  }
+
+  .remove {
+    cursor: pointer;
+  }
