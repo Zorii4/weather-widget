@@ -13,7 +13,6 @@ The source code is in ```/src``` folder.
 Add weather-widget.umd.js in <script> tag
 Add weather-widget.css in <link> tag
 Add <weather-widget /> component in your html-layout
-### Instalation:
 ```
 
 ### License
